@@ -1,0 +1,132 @@
+ html{
+    scroll-behavior: smooth;
+ }
+
+ *{
+    margin: 0px;
+    padding: 0px;
+   
+ } 
+  /* Navbar*/
+.navbar{
+    background-color:#ffdbac;
+    opacity: .85;
+}  
+.nav-link:hover{
+    border-bottom:0.0001px solid #141414;;
+}
+
+
+ /*scnd panl*/
+.main{
+    position: relative;
+    background-image:url(img/skncrbg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+   
+}
+.first-head{
+    padding-top: 20vh;
+}
+.second-head{
+    padding-top: 35vh;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#c28c46;
+    color:black;
+    cursor: pointer;
+    padding: 1px 5px;
+    border-radius: 5px;
+  
+  }
+  
+  #myBtn:hover {
+    background-color:#c39962;
+  }
+
+
+
+.main2{
+   padding-top: 10vh;
+   background-color:#eeca9a;
+}
+
+.about{
+  font-size: 25px;
+}
+.about-p{
+    font-size: 15px;
+}
+
+
+
+.main3{
+    background-color:#e9bb7f;
+}
+.product{
+    font-size: 25px;
+}
+.product-p{
+    font-size: 15px;
+}
+.products{
+    font-size:20px ;
+}
+.card{
+    background-color:#e6c294;
+ 
+   
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.card{
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+
+.main5{
+    background-color:#eeca9a;
+}
+.cntner2 {
+    background-color:#e4b67a ;
+}
+.cntner1 {
+    background-color:#cfb38f ;
+}
+.testi{
+    font-size: 25px;
+}
+
+.testi-p{
+    font-size: 15px;
+}
+ 
+
+
+.main6{
+    background-color:#e9bb7f;
+}
+/*footer panl*/
+
+
+.main5 a:hover{
+    border-bottom:0.0001px solid #ffc107;;
+}
